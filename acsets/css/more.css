@@ -1,0 +1,1060 @@
+/* lich theo tuan */
+.result__all--term-list{
+    display: flex;
+    justify-content: space-between;
+    padding: 18px 0;
+    font-size: 1.3rem;
+    border-bottom: 1px solid #c9d0db;
+}
+.result__all--term-subject{
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px solid #c9d0db;
+    background-color: #f9f9f9;
+}
+.result__all--term-subject1{
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px solid #c9d0db;
+}
+.result__all--term-subject__topright{
+    display: grid;
+    padding: 7px 0;
+    width: 80%;
+}
+.result__all--term-subject__top{
+    font-size: 1.4rem;
+    color: #3f51b5;
+    text-decoration: none;
+}
+.result__all--term-subject__bottom{
+    font-size: 1.4rem;
+    color: #757575;
+}
+.result__all--term-subject__center{
+    align-items: center;
+    font-size: 1.3rem;
+    color: #757575;
+    padding-top: 17px;
+    width: 20%;
+    text-align: center;
+}
+.result__all--term-subject__center-text{
+    text-align: center;
+}
+.result__all--term-subject__bottom{
+    padding-top: 5px;
+}
+.result__all--term-subject--none{
+    border: none;
+}
+/* lich sinh vien */
+.Selectbar__list{
+    list-style: none;
+    text-decoration: none;
+    background-color: #39527b;
+    padding: 15px;
+    border-bottom: 1px solid white;
+    display: flex;
+    justify-content: space-between;
+}
+.Selectbar__ul{
+   padding: 0;
+   margin: 0;
+   padding-top: 10px;
+}
+.growgrow{
+    width: 100%;
+    background-color: #e7ecf0;
+    
+}
+
+.Selectbar__list--more{
+   font-size: 1.3rem;     
+   color: white;
+   text-decoration: none;
+   font-family:  Tahoma;
+   font-weight: 100;
+}
+.Selectbar__list-icon{
+    color: white;
+    font-size: 1.3rem;
+    padding-right: 5px;
+}
+.Selectbar__list-icon2{
+    color: white;
+    font-size: 1.3rem;
+    padding-left: 10px;
+
+}
+.grow{
+    display: flex;
+}
+.Weeklycalendar__topmain{
+    background-color: white;
+    padding: 10px;
+    border-bottom: 1px solid #c9d0db;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+}
+.Weeklycalendar{
+    width: 83%;
+    padding: 10px;
+    
+}
+.Weeklycalendar__topmain--title{
+    font-size: 1.8rem;
+    color: #3f51b5;
+    font-weight: 580;
+    padding-top: 10px;
+    padding-left: 10px;
+    align-items: center;
+    display: flex;
+    color: #39527b;
+}
+.Weeklycalendar__topmain--list__calendar--nhacnho{
+   display: flex;
+   position: relative;
+}
+.Weeklycalendar__topmain--list__calendar--nhacnho-icon{
+    position: absolute;
+    top: 0;
+    right: 0;
+    padding: 7px 4px;
+}
+.nhacnho{
+    padding: 7px 5px;
+    border: 1px solid #c9d0db;
+}
+ 
+.Weeklycalendar__topmain--list{
+    display: flex;
+    justify-content: right;
+}
+.Weeklycalendar__topmain--list__button{
+    display: flex;
+    align-items: center;
+}
+.Weeklycalendar__topmain--list_three{
+    height: 13px;
+    width: 10px;
+    border-radius: 50%;
+    border: 1px solid #c9d0db;
+}
+.span__click{
+   font-size: 1.3rem;
+   color: #868686;
+   font-weight: 500;
+}
+.Weeklycalendar__topmain--list__use{
+    display: flex;
+}
+.Weeklycalendar__topmain--list__button-all{
+    padding-right: 10px;
+}
+.Weeklycalendar__topmain--list__calendar{
+    position: relative;
+}
+.Weeklycalendar__topmain--list__calendar--icon{
+    height: 35px;
+    padding: 0;
+    border: 1px solid #c9d0db;
+}
+.Weeklycalendar__topmain--list__calendar--icon2-down{
+    position: absolute;
+    right: 0;
+    padding: 10px 10px 7px;
+    font-size: 1.3rem;
+}
+.Weeklycalendar__topmain--list__calendar--icon2{
+    position: absolute;
+    right: 0;
+    padding: 10px 10px 7px;
+    font-size: 1.5rem;
+    border: 1px solid #c9d0db;
+
+}
+.Weeklycalendar__topmain--list__use{
+    display: flex;
+    text-decoration: none;
+    align-items: center;
+}
+.Weeklycalendar__topmain--list__use-pick{
+    background-color: #97adcf;
+    margin: 0 5px;
+    border-radius: 5px;
+    color: white;
+    padding: 7px 10px;
+    font-size: 1.3rem;
+}
+.Weeklycalendar__topmain--list__use-pick:hover{
+    background-color: #39527b;
+}
+.title__home--fist-name:hover{
+    color: #39527b;
+}
+.Weeklycalendar__bottommain{
+    background-color: white;
+    padding: 10px 10px 0 10px;
+}
+.Weeklycalendar__bottommain--ul1{
+    display: flex;
+    padding: 0;
+    margin: 0;
+    justify-content: space-between;
+}
+.Weeklycalendar__bottommain--list{
+    padding: 10px;
+    background-color: #39527b;
+    color: white;
+    font-size: 1.4rem;
+    text-align: center;
+    border: 1px solid #c9d0db;
+}
+.Weeklycalendar__bottommain--list1{
+    font-weight: 550;
+    margin-bottom: 5px;
+    text-align: center;
+}
+.Weeklycalendar__bottommain--list-try{
+   
+    align-items: center;
+}
+.Weeklycalendar__bottommain--ul2{
+    list-style: none;
+    padding:0;
+    margin: 0;
+    display: flex;
+   
+}
+.Selectbar__list:hover{
+    cursor: pointer;
+    background-color: #DB142F;
+}
+.Weeklycalendar__bottommain--ul2-today{
+    text-decoration: none;
+    font-size: 1.4rem;
+    color: var(--blue-);
+}
+.Weeklycalendar__bottommain--ul2{
+    
+    background-position: center;
+   
+}
+.Weeklycalendar__bottommain--ul2-today__study{
+    border: 1px solid #c9d0db;
+    background-color: #e7ecf0;
+    padding: 7px;
+    margin: 10px;
+    border-radius: 5px;
+}
+.Weeklycalendar__bottommain--ul2-today{
+    border: 1px solid #868686;
+  
+}
+.Weeklycalendar__bottommain--ul2-today__study1{
+    margin: 0;
+    font-size: 1.2rem;
+    font-weight: 400;
+}
+.shift__today--table{
+    background-color: white;
+    width: 100%;
+}  
+
+
+.shift__today--table__head-tr{
+    display: flex;
+    justify-content: space-between;
+}
+.shift__today--table__head--list{
+    display: grid;
+    text-align: center;
+}
+.shift__today--table__body--list-in{
+    height: 100px;
+    background-color: #DB142F;
+    width: auto;
+    justify-content: space-between;
+}
+.shift__today{
+    padding: 10px;
+    background-color: white;
+}
+.shift__today--table{
+    border: 1px solid #c9d0db;
+    width: 100%;
+    border-collapse: collapse;
+    font-family:  Tahoma;
+    background-image: url(/acsets/img/caro.png);
+}
+.shift__today--table-thead__tr{
+    border: 1px solid #c9d0db;
+}
+.shift__today--table-thead__tr--th{
+    border: 1px solid #c9d0db;
+
+}
+.shift__today--table-tbody__tr--td,
+.shift__today--table-thead__tr--th{
+    border: 1px solid #c9d0db; 
+   
+}
+.shift__today--table-thead__tr--th-both{
+    display: grid;
+}
+.shift__today--table-tbody__tr--td-in{
+   margin: 8px;
+}
+.shift__today--table-tbody__tr--td-in__center{
+   background-color: #e7ecf0;
+   padding: 8px;
+}
+.shift__today--table-tbody__tr--td-mabe{
+    font-size: 1.4rem;
+    font-weight: 550;
+    text-align: center;
+    background-color: #ffffce;
+    color: #39527b;
+    
+}
+.shift__today--table-thead__tr--th{
+    width: 7%;
+    font-size: 1.4rem;
+    color: #1da1f2;
+    padding: 5px 0;
+    background-color: #f3f7f9;
+    border: 1px solid #c9d0db; 
+}
+.shift__today--table-tbody__tr--td-in__center{
+    font-size: 1.2rem;
+    border: 1px solid #c9d0db;
+    border-radius: 5px;
+}
+.shift__today--table-tbody__tr--td-in__center--a{
+   text-decoration: none;
+   font-size: 1.3rem;
+   font-weight: 550;
+   padding-bottom: 3px;
+   color: #003763;
+  
+}
+.note{
+    background-color: white;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+   
+}
+.note__color--show1{
+    height: 15px;
+    width: 42px;
+    background-color: #e7ecf0;
+    border: 1px solid #c9d0db;
+    margin-right: 6px;
+}
+.note__color--show2{
+    height: 15px;
+    width: 42px;
+    background-color: #92d6ff;
+    border: 1px solid #c9d0db;
+    margin-right: 6px;
+}
+.note__color--show3{
+    height: 15px;
+    width: 42px;
+    background-color: #fdff9a;
+    border: 1px solid #c9d0db;
+    margin-right: 6px;
+}
+.note__color--show4{
+    height: 15px;
+    width: 42px;
+    background-color: #d04536;
+    border: 1px solid #c9d0db;
+    margin-right: 6px;
+}
+.note__color--li{
+    padding-right: 12px;
+    display: flex;
+    align-items: center;
+}
+.note__color{
+    display: flex;
+    list-style: none;
+    margin: 0;
+    padding: 0 10px;
+}
+.note__color--name{
+    font-size: 1.3rem;
+}
+.note__text{
+    padding:  10px;
+    font-size: 1.1rem;
+
+}
+@media only screen and (max-width:600px){
+    .flex-colum{
+        display: block;
+    }
+    .shift__today{
+        width: 100%;
+        overflow-x: scroll;
+        overflow-y: hidden;
+
+    }
+    .note__color{
+        display: block;
+    }
+    .shift__today::-webkit-scrollbar{
+        width: 5px;
+        height: 5px;
+     }
+     .shift__today::-webkit-scrollbar-thumb {
+       background-color: red;
+       border-radius: 10px;
+       width: 5px;
+     }
+}
+
+
+.Selectbar__hide1{
+    padding: 0;
+}
+.Selectbar__hide{
+   width: 200px;
+   top: 120px;
+}
+.exit__pick{
+    display: flex;
+    
+}
+.close__pick--click-icon{
+    font-size: 2.2rem;
+    color: #667580;
+}
+
+.close__pick--all{
+    padding: 12px 15px;
+    box-shadow: 0 1px 4px rgb(0 0 0 / 20%);
+    width: 50px;
+    background-color: white;  
+}
+.exit{
+    display: none;
+    position: fixed;
+}
+/* .close__click:hover .exit{
+    display: block;
+    cursor: pointer;   
+} */
+.cuoninmonhoc{
+    overflow-y: scroll;
+    max-height: 280px;
+}
+
+.close__click--hover{
+    width: 50px;
+    height: 50px;
+    background-color: white;
+    color: #667580;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    position: fixed;
+}
+.close__click {
+    width: 100%;
+}
+.Weeklycalendar__topmain--flex{
+    display: flex;
+    justify-content: space-between;
+}
+.Weeklycalendar__width{
+    width: 100%; 
+    z-index: 2;
+}
+.Weeklycalendar__school--table-head__tr{
+   justify-content: space-between;
+}
+.Weeklycalendar__school--table-head__tr,
+.Weeklycalendar__school--table-head__tr--th{
+    font-size: 1.3rem;
+    border: 1px solid #c9d0db;
+    border-collapse: collapse;
+    color: white;
+}
+.Weeklycalendar__school--table-head{
+    background-color: #39527b;
+}
+.Weeklycalendar__school--table{
+    width: 100%;
+    border: 1px solid #c9d0db;
+    border-collapse: collapse;
+}
+.Weeklycalendar__school{
+    background-color: white;
+    padding-top: 10px;
+}
+.Weeklycalendar__school--table-head__tr--th{
+    padding: 10px 6px;
+    font-size: 1.4rem;
+}
+.Weeklycalendar__school--table-body__tr{
+    background-color: #fdff9a;
+    padding: 0;
+    border: 1px solid #c9d0db;
+}
+.Weeklycalendar__school--table-body__tr1{
+    background-color: white;
+    padding: 0;
+    border: 1px solid #c9d0db;
+}
+.Weeklycalendar__school--table-body__tr--td{
+    border: 1px solid #c9d0db;
+    font-size: 1.3rem;
+    padding: 10px;
+    color: #868686;
+    text-align: center;
+}
+.Weeklycalendar__school--table-head__tr--th-classrom{
+    width: 7%;
+}
+.Weeklycalendar__school--table-head__tr--th-tiet{
+    width: 5%;
+}
+
+.Weeklycalendar__school--table-head__tr--th-stc{
+    width: 1%;
+}
+
+
+.Weeklycalendar__school{
+    padding: 10px;
+}
+.Weeklycalendar__topmain1{
+    display: flex;
+    justify-content: space-between;
+}
+.Weeklycalendar__lich{
+    width: 100%;
+}
+.Weeklycalendar__topmain--title1{
+    padding-top: 10px;
+}
+
+.Weeklycalendar__topmain--list__calendar1{
+    border: none;
+}
+.Weeklycalendar__topmain--list__calendar--nhacnho{
+    padding-left: 30px;
+}
+.Weeklycalendar__topmain--list-text{
+    font-size: 1.3rem;
+    color: #667580;
+    padding-top: 8px;
+    font-weight: 550;
+}
+.Weeklycalendar__topmain--list__calendar--icon--nhacnho{
+    height: 30px;
+}
+.Weeklycalendar__noidung{
+    background-color: white;
+    padding: 10px 10px 50px 10px;
+    font-size: 1.3rem;
+    font-weight: 520;
+    color: #868686;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+.body_baby{
+    background-color: #e7ecf0;
+}
+/*  */
+@media  only screen and (max-width: 600px) {
+    .Weeklycalendar{
+        padding-top: 30px;
+        width: 100%;
+    }
+    .Weeklycalendar__topmain--nhacnho{
+        flex-direction: column;
+    }
+    .Weeklycalendar__topmain--list{
+        padding: 10px 0 0 15px;
+        justify-content: left;
+    }
+
+    
+}
+.ghichulich__both--icon1{
+    height: 15px;
+    width: 50px;
+    background-color: #fdff9a;
+    border: 1px solid #c9d0db;
+    margin-right: 20px;
+}
+.ghichulich__both--icon2{
+    height: 15px;
+    width: 50px;
+    background-color: white;
+    border: 1px solid #c9d0db;
+}
+.ghichulich{
+    background-color: white;
+    padding: 10px;
+}
+.ghichulich__both{
+    display: flex;
+}
+.lichtoantruong{
+    background-color: white;
+    margin-top: 70px;
+    border-radius: 5px;
+    padding: 20px 10px 20px 10px;
+}
+.lichtoantruong__name{
+    color: #3f51b5;
+    font-size: 1.8rem;
+    font-weight: 550;
+}
+.lichtoantruong__list{
+    display: flex;
+    justify-content: space-between;
+    border-top: 1px solid #c9d0db;
+    padding-top: 10px;
+    margin-top: 20px;
+}
+.lichtoantruong__list--three{
+    height: 32px;
+    border: 1px solid #c9d0db;
+    width: 80%;  
+    padding-left: 10px;
+    color: black;
+    font-weight: 200;
+    position: relative;
+}
+.lichtoantruong__list--both{
+    width: 80%;
+}
+
+.lichtoantruong__list--both-icon{
+    position: absolute;
+    right: 0; 
+    font-size: 1.4rem;    
+}
+.lichtoantruong__next{
+    padding-top: 10px;
+    display: flex;
+    justify-content: space-between;
+}
+.lichtoantruong__next--both-2{
+    border: 1px solid #c9d0db;
+    height: 32px;
+    padding-left: 10px;
+    margin-right: 10px;
+    width: 50%;
+}
+.lichtoantruong__next--both{
+    display: flex;
+    justify-content: space-between;
+}
+.lichtoantruong__next--both-more{
+    background-color: #39527b;
+    height: 30px;
+    width: 80px;
+    border-radius: 5px;
+    color: white;
+    text-decoration: none;
+    text-align: center;
+    align-items: center;
+    font-size: 1.5rem;
+    padding-top: 7px;
+    
+}
+.lichtoantruong__next--both-more:hover{
+    background-color: #6f737b;
+}
+.lichtoantruong__next--both-choose{
+    font-size: 1.4rem;
+    color: #757575;
+    padding-top: 10px;
+    margin-right: 15px;
+}
+.lichtoantruong__note{
+    font-size: 1.2rem;
+    padding-top: 20px;
+    border-top: 1px solid #c9d0db;
+    margin-top: 20px;
+}
+.dangkihocphan__name{
+    font-size: 1.8rem;
+    font-weight:  550;
+    color: #3f51b5;
+    border-bottom: 1px solid #c9d0db;
+    padding-bottom: 20px;
+}
+.dangkihocphan{
+    background-color: white;
+    margin-top:70px;
+    padding: 20px 10px 10px 10px;
+    border-radius: 5px;
+}
+.dangkihocphan__tuychon{
+    display: flex;
+    justify-content:center ;
+    padding-top: 10px;
+    padding-bottom: 30px;
+}
+.dangkihocphan__tuychon--date{
+    width: 100%;
+    height: 100%;
+    border: 1px solid #c9d0db;
+    padding-left: 10px;
+}
+.dangkihocphan__tuychon--both1{
+    height: 35px;
+    width: 20%;
+    position: relative;
+}
+.dangkihocphan__tuychon--icon{
+   position: absolute;
+   top: 0;
+   right: 0;
+   font-size: 1.4rem;
+   padding: 6px 5px;
+   color: #888;
+}
+.dangkihocphan__tuychon--pick{
+    font-size: 1.4rem;
+}
+.dangkihocphan__tuychon--both{
+    align-items: center;
+    display: flex;
+    font-size: 1.4rem;
+    font-weight: 500;
+    color: #888;
+    padding-left: 10px;
+}
+.Weeklycalendar__topmain--list__calendar-left{
+    font-size: 1.4rem;
+    color: #888;
+    font-weight: 100;
+    padding-right: 5px;
+}
+/*  */
+.tracuucongno__table--head-tr,.tracuucongno__table--head-tr__th,.tracuucongno__table--body-tr__td{
+    border: 1px solid #c9d0db;
+}
+.tracuucongno{
+    padding: 10px;
+    background-color: white;
+}
+
+.tracuucongno__table{
+    border-collapse: collapse;
+    width: 100%;
+}
+.tracuucongno__table--head-tr__th{
+    font-size: 1.4rem;
+    padding: 20px 10px;
+    background-color: #39527b;
+    color: white;
+}
+.tracuucongno__table--body-tr__td{
+    font-size: 1.3rem;
+    text-align: center;
+    padding: 10px 0;
+    font-weight: 500;
+}
+.tracuucongno__table--head-tr__th--noidung{
+    width: 25%;
+}
+.tracuucongno__table--head-tr__th--ma{
+    width: 10%;
+}
+.do{
+    color: red;
+    border-left: 5px solid #c9d0db;
+    padding-left: 10px;
+}
+.maughichu{
+    color: red;
+    font-weight: 550;
+  
+}
+.tracuucongno__table--body-tr__maunen{
+    background-color: #e7ecf0;
+}
+/*  */
+.thongtinhocvan{
+    background-color: white;
+    margin: 10px 0 10px 20px;
+    border-radius: 5px;
+    width: 81%;
+    padding: 10px;
+}
+.thongtinhocvan__both{
+    display: flex;
+
+}
+.thongtinhocvan__title--picture-img{
+    height: 120px;
+    width: 120px;
+    border-radius: 60%;
+    margin-bottom: 10px;
+}
+.thongtinhocvan__title--picture{
+    text-align: center;
+}
+.thongtinhocvan__title{
+    padding:  20px;
+    align-items: center;
+    display: block;
+}
+.thongtinhocvan__title--name--list{
+    text-decoration: none;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    color: #39527b;
+}
+.thongtinhocvan__right--both-item{
+    font-size: 1.2rem;
+  
+}
+.thongtinhocvan__right--both-item__list{
+    padding: 8px 10px;
+}
+.thongtinhocvan__title--name--list-all{
+    font-size: 1.1rem;
+    padding: 8px 0;
+}
+.thongtinhocvan__title--name--list-all__text{
+    font-size: 1.3rem;
+    font-weight: 550;
+}
+.thongtinhocvan__right--both{
+    display: flex;
+    justify-content: left;
+    border-top: 1px solid #c9d0db;
+    padding-top: 10px;
+}
+.thongtinhocvan__right{
+    padding-left: 20px;
+}
+.thongtinhocvan__right--both-item{
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    color: #39527b;
+
+}
+.thongtinhocvan__theend--three{
+    display: flex;
+}
+.thongtinhocvan__bottom{
+    padding: 10px;
+}
+.Weeklycalendar__topmain--title-bottom{
+    border-top: 1px solid #c9d0db;
+}
+.thongtinhocvan__theend--three-tyle{
+    width: 33%;
+}
+
+.thongtinhocvan__bottom--four{
+    display: flex;
+}
+.thongtinhocvan__theend{
+    padding: 10px;
+    border-top: 1px solid #c9d0db;
+}
+@media screen and (max-width: 600px){
+    .thongtinhocvan__title--name{
+        display: flex;
+        justify-content: center;
+    }
+}
+/*  */
+.Weeklycalendar__topmain--list__calendar{
+    position: relative;
+}
+.Weeklycalendar__topmain--list__calendar--icon{
+    padding-left: 10px;
+    font-size: 1.2rem;
+}
+.Weeklycalendar__topmain--list__calendar--item{
+    position: absolute;
+    top: 0;
+    right: 0;
+    padding: 6px 3px;
+}
+.Weeklycalendar__thanhtoan--thead{
+    background-color: #39527b;
+}
+.Weeklycalendar__thanhtoan--body-tr__td--img{
+    height: 100px;
+    width: 100px;
+}
+.Weeklycalendar__thanhtoan{
+    width: 100%;
+    border-collapse: collapse;
+    padding: 10px;
+}
+.Weeklycalendar__thanhtoan--thead-tr,.Weeklycalendar__thanhtoan--thead-tr__th,.Weeklycalendar__thanhtoan--body-tr__td{
+    border: 1px solid #c9d0db;
+     border-collapse: collapse;
+}
+.paddingleft{
+    background-color: white;
+    padding: 10px;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+.Weeklycalendar__thanhtoan--thead-tr__th{
+    padding: 20px 10px ;
+    font-size: 1.4rem;
+    color: white;
+}
+.Weeklycalendar__thanhtoan--body-tr__td{
+    font-size: 1.2rem;
+    font-weight: 520;
+    padding: 10px 0;
+    color: #39527b;
+}
+
+.texxt{
+    font-weight: 500;
+    font-size: 1.4rem;
+}
+.Weeklycalendar__thanhtoan--body-tr{
+    text-align: center;
+}
+.bluebig{
+    font-size: 1.4rem;
+    color: #39527b;
+    font-weight: 700;  
+}
+.Weeklycalendar__thanhtoan--body-tr__td--click{
+    background-color:#ff5722;
+    color: white;
+    width: 120px;
+    height: 40px;
+    margin: auto;
+    border-radius: 2px;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    font-size: 1.2rem;
+    font-weight: 500;
+    border-bottom: 2px solid #aa3c19;
+}
+
+
+.fontchucuoi{
+    font-size: 1.2rem;
+    font-weight: 500;
+    padding: 10px 0 
+}
+.cancel{
+    text-decoration: none;
+    color: #00cdff;
+}
+.Weeklycalendar__bottom{
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+.style__none{
+    text-decoration: none;
+}
+.Weeklycalendar__thanhtoan--thead-tr__th--chitiet{
+    width: 8%;
+}
+.Weeklycalendar__thanhtoan--body-tr__td{
+    padding: 10px 5px;
+}
+.chitiet__thuphieu{
+    text-decoration: none;
+    border: 1px solid #c9d0db;
+    padding: 5px;
+    color: #00cdff;
+}
+.Weeklycalendar__topmain--list__calendar--color{
+    background-color: #39527b;
+    color: white;
+    padding: 7px;
+    border-radius: 2px;
+    font-size: 1.2rem;
+}
+/* thong tin sinh vien */
+@media screen and (max-width: 600px) {
+    .Selectbar{
+        display: none;
+    }
+    .thongtinhocvan__both{
+       flex-direction: column;
+    }
+    .thongtinhocvan{
+        width: 100%;
+        margin: 0;
+        margin-top: 30px;
+    }
+    .thongtinhocvan__bottom--four,.thongtinhocvan__theend--three,.thongtinhocvan__right--both,.thongtinhocvan__right--both {
+        display: block;
+    }
+    .thongtinhocvan__theend--three-tyle{
+       width: 100%;
+    }
+
+    .Weeklycalendar__school{
+            overflow-x: scroll;
+            width: 100%;
+    }
+    .tracuucongno::-webkit-scrollbar{
+        width: 5px;
+        height: 5px;
+     }
+     .tracuucongno::-webkit-scrollbar{
+        width: 5px;
+        height: 5px;
+     }
+     .tracuucongno::-webkit-scrollbar-thumb {
+       background-color: red;
+       border-radius: 10px;
+       width: 5px;
+     }::-webkit-scrollbar-thumb {
+       background-color: red;
+       border-radius: 10px;
+       width: 5px;
+     }::-webkit-scrollbar{
+        width: 5px;
+        height: 5px;
+     }
+     .tracuucongno::-webkit-scrollbar-thumb {
+       background-color: red;
+       border-radius: 10px;
+       width: 5px;
+     }
+    .Weeklycalendar__topmain--flex{
+        flex-direction: column;
+    }
+    .tracuucongno{
+        overflow-x: scroll;
+        
+     }
+     .tracuucongno::-webkit-scrollbar{
+        width: 5px;
+        height: 5px;
+     }
+     .tracuucongno::-webkit-scrollbar-thumb {
+       background-color: red;
+       border-radius: 10px;
+       width: 5px;
+     }
+     .paddingleft {
+        overflow-x: scroll;
+
+     }
+ 
+         
+    
+}

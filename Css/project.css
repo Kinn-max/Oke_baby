@@ -1,0 +1,157 @@
+/* project */
+.center_project{
+    display: flex;
+    width: 1200px;
+    margin: 0 auto;
+}
+body{
+    font-family: var(--system-ui);
+}
+
+.allproject{
+    margin-top: 100px;
+    width: 100%;
+    font-family: var(--system-ui);
+}
+.allproject__name{
+    display: flex;
+    align-items: center;
+}
+.allproject__name >i{
+    font-size: 3rem;
+    margin-right: 10px;
+}
+.allproject__name span{
+    font-size: 1.8rem;
+    font-weight: 500;
+}
+.allproject__name> span>a{
+    font-size: 1.5rem;
+    color: var(--pink-);
+}
+.allproject__text{
+    text-align: center;
+    margin-bottom: 10px;
+}
+.allproject__text h3{
+    font-size: 2.5rem;
+    color: var(--color--hover--);
+}
+.title_books{
+    font-size: 30px;
+    margin: 10px 0;
+    color: var(--pink-);
+    padding-bottom: 10px;
+    border-bottom: 2px solid var(--color--hover--);
+}
+
+.lifebook{
+    margin: 40px 0 30px 0;
+    display: flex;
+    justify-content: space-between;
+}
+.lifebook2{
+    display: flex;
+}
+.lifebook--all1{
+    margin-right: 20px;
+}
+.lifebook--all{
+    position: relative;
+    background-color: var( --fff--title);
+    width: 24%;
+    padding: 20px 15px;
+    border-radius: 5px;
+    box-shadow: 0 1px 2px rgba(0,0,0,0.1);
+    transition: 0.3s;
+    overflow: hidden;
+
+}
+.new_product{
+    position: absolute;
+    width: 125px;
+    height: 18px;
+    background-color: var(--nhan--);
+    top: 22px;
+    left: -20px;
+    transform: rotate(-40deg);
+    box-shadow: 0px 3px 5px rgba(0,0,0,0.6);
+    text-align: center;
+    align-items: center;
+    font-weight: 700;
+    display: block;
+    color: var(--fff--title);
+    line-height: 16px;
+    overflow: hidden;
+}
+.new_product::after{
+    content: "";
+    border-left: 3px solid #a3362a;
+    border-right: 3px solid transparent;
+    left: 0;
+    position: absolute;
+
+
+}
+.fa-hotjar{
+    margin-left: 5px;
+}
+
+.lifebook--all:hover{
+    transform: translateY(-1px);
+    box-shadow: 2px 2px 20px rgba(0,0,0,0.05);
+}
+.coversation_color-pink:hover{
+    color: black;
+}
+.lifebook--img__book{
+    width: 100%;
+    height: 258px;
+}
+.lifebook--all a{
+    font-size: 20px;
+    color: var(--pink-);
+    transition: 0.5s;
+}
+
+.lifebook--all span{
+    font-size: 13px;
+}
+@media only screen and (max-width:600px) {
+    .headerProject{
+        max-width: 600px;
+        width: 100%;
+    }
+    .center_project,.lifebook,.Book_of_life{
+        width: 100%;
+        max-width: 600px;
+    }
+    .lifebook{
+        display: flex;
+        padding: 0 8px;
+        flex-direction: column;
+        background-color: var(--foor--body);
+    }
+    .lifebook--all{
+        width: 100%;
+        margin:  10px 0;
+    }
+    .fa-twitter{
+        padding-top: 3px;
+    }
+    .lifebook--img__book {
+        height: 100%;
+    }
+    .lifebook2{
+        flex-direction: column;
+        background-color: var(--foor--body);
+        padding: 0 8px;
+    }
+    .title_books{
+        font-size: 2rem;
+        padding-left: 5px;
+        margin: 0 10px;
+
+    }
+    
+}

@@ -1,0 +1,19 @@
+:root{
+    --orange-:#f05123;
+    --blue-:#005ab7;
+    --black-:#212529;
+    --green-:#25c6cb;
+}
+*{
+    box-sizing: border-box;
+}
+html{
+    font-size: 62.5%;
+    line-height: 1.6rem;      /* độ dài chữ bằng với tie lệ fontsize */
+    font-family:  'Roboto', sans-serif;
+    box-sizing: border-box;
+}
+.body_baby{
+    margin: 0px;
+}
+

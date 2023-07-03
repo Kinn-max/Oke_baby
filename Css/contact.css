@@ -1,0 +1,159 @@
+
+body{
+    font-family: var(--system-ui);
+    background-color: var( --foor--body);
+}
+.all_contact{
+    width: 1200px;
+    margin: 0 auto;
+    
+
+}
+.background{
+    display: flex;
+    width: 100%;
+    height: 600px;
+    position: relative;
+    padding-top: 50px;
+}
+
+.background img{
+    width: 100%;
+    height: 100%;
+}
+.all_contact--past{
+    position: absolute;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content:center;
+    height: 100%;
+
+}
+.allproject__name{
+    display: flex;
+    align-items: center;
+    margin-right: 20px;
+}
+.icon__contact{
+    font-size: 3rem;
+    color: var( --cam--dam);
+}
+.allproject__name> span{
+    font-size: 2rem;
+    font-weight: 600;
+    margin: 0 5px;
+    color: var( --cam--dam);
+}
+
+.allproject__name >span > a{
+    font-size: 1.8rem;
+    font-weight: 500;
+    color: var(--fff--title);
+    transition: 0.5s;
+}
+.allproject__name span   :hover {
+    color: var(--color--hover--);
+}
+.all_contact--information{
+    display: flex;
+    background-color: var( --fff--title);
+    padding: 20px;
+    font-size: 1.4rem;
+    width: 100%;
+    margin: 20px 0;
+    border-radius: 5px;
+    overflow: hidden;
+    box-shadow: 0px 2px 2px rgba(0,0,0,0.09);
+}
+.img__information{
+    width: 100%;
+    height: 100%;
+}
+.all_contact--information__left{
+    width: 150px;
+    height: 150px;
+}
+.all_contact--information__right{
+    padding-left: 30px;
+    border-right: 2px solid var(--cam--dam);
+    padding-right: 50px;
+}
+.text_information{
+    display: flex;
+    text-align: center;
+    align-items: center;
+    font-family: 'Dancing Script', cursive;
+    padding: 0 30px;
+
+}
+.text_information span{
+    display: block;
+    font-weight: 400;
+    font-size: 1.2rem;
+}
+.name__school{
+    display: flex;
+    justify-content: center;
+    color: var(--color--hover--);   
+    margin-bottom: 30px;
+}
+.name__school h3{
+    font-size: 2.8rem;
+}
+.icon_uni{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+.name__school i{
+    font-size: 2.5rem;
+    width: 100%;
+}
+@media only screen and (max-width: 600px){
+    .all_contact{
+        max-width: 600px;
+        width: 100%;
+    }
+    .fa-twitter{
+        padding-top: 3px;
+    }
+    .all_contact--past{
+        flex-direction: column;
+        justify;
+    }
+    .background{
+        height: 400px;
+    }
+ 
+    .allproject__name i{
+        font-size: 2rem;
+        padding-top: 5px;
+    }
+    .allproject__name span{
+        font-size: 1.8rem;
+    }
+    .allproject__name>span>a{
+        font-size: 1.3rem;
+    }
+    .all_contact--information{
+        flex-direction: column;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .all_contact--information__right{
+        border-right: none;
+        border-top: 2px solid var(--cam--dam);
+        border-bottom: 2px solid var(--cam--dam);
+        padding: 20px 0;
+        text-align: center;
+    }
+    .center__if{
+        margin: 0 5px;
+    }
+    .text_information{
+        padding-top: 10px;
+    }
+
+}

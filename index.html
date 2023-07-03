@@ -1,0 +1,567 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="Css/style.css">
+    <link rel="stylesheet" href="JS/main.js">
+    <script src="https://code.jquery.com/jquery-3.7.0.js" integrity="sha256-JlqSTELeR4TLqP0OG9dxM7yDPqX1ox/HfgiSLBj8+kM=" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="Fonsomeone/fontawesome-free-6.2.0/css/all.css">
+    <title>Home</title>
+</head>
+<body>
+    <header class="headerProject">
+        <div class="HomeChose ">
+            <div class="HomeChose__img">
+                <a href="index.html" class="HomeChose__img--click">
+                    <img src="Img/TRANCHUNGKIEN.jpg" class="img_home"  alt="">
+                </a>
+            
+             <a href="https://www.facebook.com/profile.php?id=100038481781675">
+                 <i class="fa-brands icon__title fa-facebook"></i>
+             </a
+             <a href="">
+                <i class="fa-brands icon__title  fa-twitter"></i>
+            </a>
+                <a href="">
+                    <i class="fa-solid icon__title fa-envelope"></i>
+                </a>
+                <a href="">
+                    <i class="fa-brands icon__title fa-tiktok"></i>
+                </a>
+            
+            </div>
+            
+            <div class="HomeChose__change">
+                <div class="creat_boderbt">
+                    <a href="index.html" class="HomeChose__change--list">
+                        <h3 class="boder_text_center">Home</h3>
+                    </a>
+                </div>
+                <div class="creat_boderbt">
+                    <a href="project.html" class="HomeChose__change--list">
+                        <h3 class="boder_text_center">Study</h3>
+                    </a>
+                </div>
+                <div class="creat_boderbt">
+                    <a href="blog.html" class="HomeChose__change--list">
+                        <h3 class="boder_text_center">Blog</h3>
+                    </a>
+                </div>
+                <div class="creat_boderbt">
+                    <a href="contact.html" class="HomeChose__change--list">
+                        <h3 class="boder_text_center">Contact</h3>
+                    </a>
+                </div>
+                <div class="creat_boderbt">
+                    <a href="style.html" class="HomeChose__change--list HomeChose__change--list-none">
+                        <h3 class="boder_text_center">Style</h3>
+                    </a>
+                </div>
+            </div>
+            <div class="menu_home">
+                <i class="fa-solid icon__menuu fa-bars"></i>
+            </div>
+
+ 
+        </div>
+  
+    </header>
+    <script>
+        setTimeout(function() {
+            alert("Chào em")
+        }, 2000) 
+    </script> 
+    <div class="btn">
+        <div class="HomeChose">
+            <div class="grow">
+               <div class="both">
+                     <div class="group">
+                        <img src="Img/img1.webp" id="changeimg"  alt="" class="group__img">
+                        <div class="group__text">
+                        <span>Always lead</span>
+                        <h2>Discover my soul!</h2>
+                        <button class="button">Start Now</button>
+                        </div>
+                    </div>
+                    <div class="individual">
+                        <div class="individual__all">
+                            <div class="love">
+                                <i class="fa-solid icon__information  fa-heart-pulse"></i>
+                                <div class="hiden__textthongtin">
+                                    <h2 class="love__name">My love</h2>
+                                    <p>Love is not gentle as books that are painted. Love carries a lot of weapons that hurt, but once hit will leave a long trace to overcome imagination. It was not until I was painful that I realized that my heart was not iron, not as strong as I thought, regardless of whether I was invincible, not much concerned. These regrets, these words, this nostalgia must be to confess to the person who needs to know.
+                                    </p>
+                                </div>
+                                <div class="hiden__three">
+                                    <a href="#">Find out more</a>
+                                    <i class="fa-solid fa-fingerprint"></i>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="individual__all">
+                            <div class="love">
+                                <i class="fa-sharp fa-solid icon__information fa-graduation-cap"></i>
+                                <div class="hiden__textthongtin">
+                                    <h2 class="love__name">Job</h2>
+                                    <p>   Student of Ho Chi Minh City University of Transport.To celebrate success is also good, but more importantly, pay attention to the lessons of failure. Any job is not possible for gaining a little victory and forgetting his duties.                              
+                                     </p>
+        
+                                </div>
+                                <div class="hiden__three">
+                                    <a href="#">Find out more</a>
+                                    <i class="fa-solid fa-fingerprint"></i>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="individual__all">
+                            <div class="love">
+                                <i class="fa-solid icon__information fa-house-user"></i>
+                                <div class="hiden__textthongtin">
+                                    <h2 class="love__name">My family</h2>
+                                    <p>The family is the first class to teach us the first saying, and it teaches us what is love, protection and tolerance and only this place can have enough tolerance when we commit those who commit these to those. Mistakes, and this is also the only place for us to return after the stumbles. I love my family very much
+                                    </p>
+                                </div>
+                                <div class="hiden__three">
+                                    <a href="#">Find out more</a>
+                                    <i class="fa-solid fa-fingerprint"></i>
+                                </div>
+                            </div>
+                        </div>
+                        </div> 
+            </div>
+            <script>
+                var count = 2;
+                var imgs= ["Img/img4.webp","Img/img9.webp","Img/img10.jpg","Img/img11.jpg","Img/img12.jpg","Img/img13.jpg","Img/img14.jpg","Img/img15.jpg","Img/img16.jpg","Img/img17.jpg","Img/img18.jpg"];
+                var imgtag= document.getElementById('changeimg');
+                function changeImage(){
+                     imgtag.setAttribute("src", imgs[count])
+                    count++;
+                    if (count == imgs.length){
+                                count = 0;
+                     }
+                    }
+                    setInterval(changeImage,1500);
+               
+       
+               </script>
+               <script src="JS/main.js">
+               </script>
+               
+                <div class="mylife">
+                    <h3>My life</h3>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <p>“To the world you may be one person, but to one person you may be the world”</p>
+                </div>
+                <div class="intended">
+                      <div class="intended__left">
+                        <span>Why should I love this life?</span>
+                        <h3>Living is to love.</h3>
+                        <p>The French Van Hao Victor Hugo said, "People who live without love are like the flower garden without sunlight, nothing beautiful and useful can flourish in it." Such a life is so tasteless, boring becomes gloomy, deserted, lacking colors for life, surely if ...</p>
+    
+                        <div class="iconpick">
+                            <ul>
+                                <li><i class="fa-solid fa-circle-check"></i> Couple</li>
+                                <li><i class="fa-solid fa-circle-check"></i> Nature</li>
+                                <li><i class="fa-solid fa-circle-check"></i> Animal</li>
+                            </ul> 
+                             <ul>
+                                <li><i class="fa-solid fa-circle-check"></i>Family</li>
+                                <li><i class="fa-solid fa-circle-check"></i>Life</li>
+                                <li><i class="fa-solid fa-circle-check"></i>Jobs</li>
+                            </ul>
+                        </div>
+                        <div class="button_center--home">
+                        <button><i class="fa-solid fa-share-from-square"></i>Share your story</button>     
+                        </div>  
+                      </div>
+                      <div class="intended__right">
+                        <div class="intended__right--top">
+                            <div class="intended__right--list">
+                               <i class="fa-solid fa-headphones"></i>
+                               <h3> Music</h3>
+                               <p>
+                                Music is part of my life,
+                                Like listening to ballad melodies, universal orchestra ...
+                               </p>
+                            </div>
+                            <div class="intended__right--list nocolor">
+                                <i class="fa-solid fa-film"></i>
+                               <h3>Movies</h3>
+                               <p>
+                                3D anime film, review, ...
+                                Especially with inspirational films
+                                Positive for life.
+                               </p>
+                            </div>
+                        </div>
+                        <div class="intended__right--bottom">
+                            <div class="intended__right--list nocolor">
+                                <i class="fa-solid fa-gamepad"></i>
+                               <h3>Gaming</h3>
+                               <p>
+                                Play entertainment games,Arena of valor,
+                               </p>
+                            </div>
+                            <div class="intended__right--list noboderradius">
+                                <i class="fa-solid fa-user-tie"></i>
+                               <h3>Coder</h3>
+                               <p>
+                                Always improve programming level,
+                                Learn new every day to become
+                                tryhard.
+                               </p>
+                            </div>
+                        </div>
+
+                      </div>
+                </div>
+                <audio  class="margin_bottom--home" src="mp3/de_toi_om_em_bang_giai_dieu_nay_short.mp3" type="audio" controls></audio>
+
+                <div class="lifeStory">
+                    <div class="lifeStory__title">
+                        <h3>TRAVELS</h3>
+                        <a href="#">
+                            <span>VIEW ALL</span>
+                        </a>
+                    </div>
+                    <div class="travel">   
+                        <div class="lifeStory__textImg">
+                            <div class="lifeStory__img">
+                                <a href="https://eurotravel.com.vn/thanh-pho-paris/">
+                                    <img class="lifeStory__img--icon" src="Img/img_travel/parri.jpeg" alt="">
+                                    <span class="absilut">TRAVEL</span>
+                                </a>
+                            </div>
+                            <div class="backgroud__text--bottom">
+                                <a href="https://eurotravel.com.vn/thanh-pho-paris/">
+                                    <h3>Paris City - the most magnificent and romantic capital in France.</h3>
+                                </a>
+                                <span class="cardA__span" >BY <a href="https://www.facebook.com/baby7th1" class="cardA">KIEN TRAN</a> - MAY 14, 2023  </span>
+                                <p>Dubbed the "light capital" of France, the magnificent Paris is always a stop for many tourists who are passionate about beauty...</p>
+
+                            </div>
+                        </div>
+
+                        <div class="lifeStory__textImg">
+                            <div class="lifeStory__img">
+                                <a href="https://worldtrip.vn/cam-nang/tin-tuc-du-lich/8-ly-do-thuy-si-duoc-menh-danh-la-dat-nuoc-dang-song-nhat.html">
+                                    <img class="lifeStory__img--icon" src="Img/img_travel/thúyi.jpeg" alt="">
+                                    <span class="absilut">TRAVEL</span>
+                                </a>
+                            </div>
+                            <div class="backgroud__text--bottom">
+                                <a href="https://worldtrip.vn/cam-nang/tin-tuc-du-lich/8-ly-do-thuy-si-duoc-menh-danh-la-dat-nuoc-dang-song-nhat.html">
+                                    <h3>What has made Switzerland the most livable country in the world ?</h3>
+                                </a>
+                                <span >BY <a href="https://www.facebook.com/baby7th1"class="cardA">KIEN TRAN</a> - December 7, 2023  </span>
+                                <p>Switzerland is known as the "paradise of the world" because of the majestic natural landscape, a long -standing culture or picturesque houses and other reasons ...</p>
+
+                            </div>
+                        </div>
+                        <div class="lifeStory__textImg">
+                            <div class="lifeStory__img">
+                                <a href="https://duhocvietglobal.com/con-nguoi-va-dat-nuoc-anh-quoc/">
+                                    <img class="lifeStory__img--icon" src="Img/img_travel/nuocanh.jpeg" alt="">
+                                    <span class="absilut">TRAVEL</span>
+                                </a>
+                            </div>
+                            <div class="backgroud__text--bottom">
+                                <a href="https://duhocvietglobal.com/con-nguoi-va-dat-nuoc-anh-quoc/">
+                                    <h3>The people and the country of England. </h3>
+                                </a>
+                                <span >BY <a href="https://www.facebook.com/baby7th1"class="cardA">KIEN TRAN</a> - March 1, 2023  </span>
+                                <p>The UK is not only known as the homeland of the brave men but also famous for the name of the foggy country, one of the cultural centers...</p>
+
+                            </div>
+                        </div>
+                    </div>
+                 
+                </div>
+                <div class="lifeStory__title">
+                    <h3>IDOL</h3>
+                </div>
+                <div class="admiration">
+                    <a href="https://www.youtube.com/watch?v=UCXao7aTDQM" class="admiration__big">
+                        <div class="admiration__big--img">
+                            <img src="Img/img__idol/ha-anh-tuan.jpg" alt="" class="admiration__big--img-icon">
+                            <div class="admiration__big--img-text">
+                                <span>HA ANH TUAN</span>
+                                <h4>THANG TU LA LOI NOI DOI CUA EM</h4>
+                                <p>VIETNAM - AUGUST 14, 2023</p>
+                            </div>
+                       </div>
+                    </a>
+            
+                        <a href="https://www.youtube.com/watch?v=9i5m4RYNMMw" class="admiration__second">
+                            <div class="admiration__second--img">
+                                <img src="Img/img_travel/quanap.jpg" alt="" class="admiration__second--img-icon">
+                                <div class="admiration__second--img-text">
+                                    <span>QUAN-AP</span>
+                                    <h4> YOU ARE MY CRUSH</h4>
+                                    <p>VIETNAM - AUGUST 14, 2023</p>
+                                </div>
+                            </div>
+                        </a>
+                        <a href="https://www.youtube.com/watch?v=sinhZ1l54K8" class="admiration__second">
+                            <div class="admiration__second--img">
+                                <img src="Img/img__idol/datg.jpeg" alt="" class="admiration__second--img-icon">
+                                <div class="admiration__second--img-text">
+                                    <span>DAT-G</span>
+                                    <h4>THEM BAO NHIEU LAU</h4>
+                                    <p>VIETNAM - AUGUST 14, 2023</p>
+                                </div>
+                            </div>
+                        </a>
+   
+                </div>
+                <div class="technology">
+                    <div class="lifeStory__title">
+                        <h3>LEARNING</h3>
+                    </div>
+                    <div class="technology__list">
+                        <div class="technology__list--all">
+                            <a href="https://ut.edu.vn/tin-tuc-su-kien/hoc-cong-nghe-thong-tin-tai-truong-dh-giao-thong-van-tai-tphcm-co-hoi-nghe-nghiep-rong-mo-2439.html">
+                                <div class="center_khoacntt">
+                                    <img src="Img/img__study/khoacntt.png" alt="" class="technology__list--all-img">
+                                </div>
+                                <div class="technology__list--all-title">
+                                    <h3 class="changeTexth3">Ho Chi Minh City University of Transport trains IT. </h3>
+                                    <p>
+                                        Faculty of IT has 05 subjects: Software technology, information system, computer network and communication,
+                                        Computer engineering, and general information technology with 08 practical and experiments are equipped with modern, serving learning and scientific research.
+                                        Studying information technology, students are equipped with basic knowledge of natural sciences, basic knowledge such as computer networks, information systems, programming, software ... and learners will be selected 
+                                        Study specialties suitable to capabilities, interests such as software technology, computer science, information systems, information security, ...
+                                    </p>     
+                                    <span>Self -study is a way to study at university</span>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="technology__right--all">
+                            <a href="https://fullstack.edu.vn/">
+                                <img src="Img/img__study/f8-icon.18cd71cfcfa33566a22b.png" alt="" class="technology__right--all-img">
+                                <div class="technology__right--all-title">
+                                    <h3 class="changeTexth3">F8 is the place to learn website programming from zero to hero.</h3>
+                                    <span>Study with F8</span>
+                                </div>
+                            </a>
+                            <a href="https://www.w3schools.com/">
+                                <img src="Img/img__study/w3.png" alt="" class="technology__right--all-img technology__right--all-img__colum">
+                                <div class="technology__right--all-title">
+                                    <h3 class="changeTexth3">W3School is a full -website programming material for all DEVs.</h3>
+                                    <span>Discover W3</span>
+                                </div>
+                            </a>
+                            <a href="https://www.youtube.com/">
+                                <img src="Img/img__study/youtobe.png" alt="" class="technology__right--all-img">
+                                <div class="technology__right--all-title">
+                                    <h3 class="changeTexth3">YouTube is the platform to help you watch videos everything you want.</h3>
+                                    <span>Open Youtube</span>
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div  class="taskbak">
+          <div class="bacgroud__all-it">
+            <div  class="close_exit">
+                <h3>Kiên Baby</h3>
+                <i class="fa-solid icon__close fa-xmark"></i>
+            </div>
+            <div class="background_class">
+                <ul class="zone_stop" >
+                    <a href="#">
+                         <li class="magin_taskback--title hover_taskback">
+                            <i class="fa-solid magin_taskback fa-circle-user">
+                            <span>Sign in</span>
+                            </i>
+                         </li>
+                     </a>  
+                    <a href="index.html" class="chose_home">
+                        <li class="hover_taskback backgroud__chosse">
+                            <i class="fa-solid magin_taskback fa-house">
+                              <span>Home</span>
+                            </i>
+                        </li>
+                    </a>
+                    <a href="project.html">
+                        <li class="hover_taskback">
+                            <i class="fa-solid magin_taskback fa-paper-plane">
+                             <span>   Study</span>
+                            </i>
+                        </li>
+                    </a>
+                    <a href="blog.html">
+                        <li class="hover_taskback">
+                            <i class="fa-solid magin_taskback fa-rss">
+                               <span> Blog</span>
+                            </i>
+                        </li>
+                    </a>
+                    <a href="contact.html">
+                        <li class="hover_taskbac"k>
+                            <i class="fa-brands magin_taskback fa-kickstarter">
+                               <span> Contact</span>
+                            </i>
+                        </li>
+                    </a>
+                    <a href="style.html">
+                        <li class="hover_taskback">
+                             <i class="fa-solid  magin_taskback fa-bolt">
+                             <span>   Style</span>
+                             </i>
+                        </li>
+                    </a>
+                </ul>
+            </div>
+          </div>
+        
+        </div>
+        <script>
+
+            const iconMenu = document.querySelector(".icon__menuu ")
+            const taskBak = document.querySelector('.taskbak')
+            const closeTask = document.querySelector('.icon__close')
+            
+            iconMenu.addEventListener('click', function(){
+                taskBak.style.display = 'block'
+            })
+            closeTask.addEventListener('click', function(){
+                taskBak.style.display = 'none'
+            })
+            
+        </script>
+        <div class="Notification">
+            <div class="Notification__all">
+                <div  class="Notification__all--title">
+                    <h3>Good</h3>
+                    <i class="fa-solid icon__close--modal fa-xmark"></i>
+                </div>
+                <span>Hi em !</span>
+                <p>Em ăn cơm chưa em :))</p>
+                <p>Đớp mấy đọi</p>
+                <p>Ăn cơm cá có xương không?</p>
+                <p>...</p>
+                <p>Rứa đi ngủ đi.</p>
+       
+            </div>
+        </div>
+        <script>
+            const showw = document.querySelector(".button")
+            const modall = document.querySelector(".Notification")
+            const hiddenModal = document.querySelector(".icon__close--modal")
+
+            showw.addEventListener('click', function(){
+                modall.style.display = 'flex'
+            })
+            hiddenModal.addEventListener('click', function(){
+                modall.style.display = 'none'
+            })
+        </script>
+    </div>
+    <footer>
+        <div class="HomeChose">
+            <div class="theEnd__all">
+                <div class="theEnd">
+  
+                     <div class="theEnd__information">
+                        <div class="factory__map">
+                            <img src="Img/the_end.jpg" alt="" class="theEnd__information--img"> 
+                        </div>
+                        <div class="address_theEnd">
+                            <p class="address_theEnd--p">34m/89 Group 1- Quarter 1,Ward Trung My Tay, District 12, Ho Chi Minh City, Vietnam</p>
+                            <p>Any questions contact administrator:</p>
+                            <p>Hottel: 099999999</p>
+                            <p>Call me: 099999999</p>
+                        </div>
+               
+                     </div>
+                     <div class="theEnd__future ">
+                        <ul class="theEnd__future--list">
+                           <li class="theEnd__future--list-all">
+                               <span>Project:</span>
+                           </li>
+                           <li class="theEnd__future--list-all">
+                               <a href="">Uth</a>
+                           </li>
+                           <li class="theEnd__future--list-all">
+                               <a href="">Store</a>
+                           </li>
+                           <li class="theEnd__future--list-all">
+                               <a href="">30 days</a>
+                           </li>
+                           <li class="theEnd__future--list-all">
+                               <a href="">Bala</a>
+                           </li>
+                        </ul>
+                        <ul class="theEnd__future--list">
+                           <li class="theEnd__future--list-all">
+                               <span>Corporate:</span>
+                           </li>
+                           <li class="theEnd__future--list-all">
+                               <a href="">Kin-Max</a>
+                           </li>
+                           <li class="theEnd__future--list-all">
+                               <a href="">Nodemy</a>
+                           </li>
+                           <li class="theEnd__future--list-all">
+                               <a href="">F8</a>
+                           </li>
+                           <li class="theEnd__future--list-all">
+                               <a href="">OpenAI</a>
+                           </li>
+                        </ul>
+                        <ul class="theEnd__future--list">
+                           <li class="theEnd__future--list-all">
+                               <span>Investors:</span>
+                           </li>
+                           <li class="theEnd__future--list-all">
+                               <a href="">Myself</a>
+                           </li>
+                           <li class="theEnd__future--list-all">
+                               <a href="">My parents</a>
+                           </li>
+                           <li class="theEnd__future--list-all">
+                               <a href="">Free time</a>
+                           </li>
+                           <li class="theEnd__future--list-all">
+                               <a href=""></a>
+                           </li>
+                        </ul>
+                        <ul class="theEnd__future--list">
+                           <li class="theEnd__future--list-all">
+                               <span>News & Media:</span>
+                           </li>
+                           <li class="theEnd__future--list-all">
+                               <a href="">News</a>
+                           </li>
+                           <li class="theEnd__future--list-all">
+                               <a href="">Media</a>
+                           </li>
+                           <li class="theEnd__future--list-all">
+                               <a href=""></a>
+                           </li>
+                           <li class="theEnd__future--list-all">
+                               <a href=""></a>
+                           </li>
+                        </ul>
+                        <div class="map__uth">
+                            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1326.8621869610135!2d106.7165772525927!3d10.804466397914785!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3175293dceb22197%3A0x755bb0f39a48d4a6!2zVHLGsOG7nW5nIMSQ4bqhaSBI4buNYyBHaWFvIFRow7RuZyBW4bqtbiBU4bqjaSBUaMOgbmggUGjhu5EgSOG7kyBDaMOtIE1pbmg!5e0!3m2!1svi!2s!4v1677663591123!5m2!1svi!2s"
+                             width="100%" height="100%" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                        </div>
+                     </div>        
+                 </div>
+                 <div class="theEnd__license">
+                  <p>@2023 - Copyright belongs to Kin - Max Company Limited</p>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+</body>
+</html>

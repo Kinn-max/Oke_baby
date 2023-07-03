@@ -1,0 +1,421 @@
+
+
+
+.all_windows{
+    width: 100%;
+    padding-top: 70px;
+    overflow: hidden;
+    background-color: var(--foor--body);
+}
+.screen__first{
+    width: 100%;
+    background-color: rgba(0 0 0 /40%);
+    position: relative;
+
+}
+.video_nen{
+    width: 100%;
+
+}
+.video_nen--display{
+    width: 100%;
+    height: 100%;
+}
+.video_nen--display::-webkit-media-controls-enclosure {
+  display: none !important;
+}
+
+.video_nen--display::-webkit-media-controls-panel {
+  display: none !important;
+}
+
+.video_nen--display::-webkit-media-controls-play-button {
+  display: none !important;
+}
+
+
+.screen__first-img{
+    width: 100%;
+    height: 100%;
+    background-position: center;
+}
+.single_small{
+    height: 350px;
+    box-shadow:  rgba(0 0 0 /40%) 6px 2px 16px 0px,
+     rgba(0 0 0 /40%) -6px -2px 16px 0px;
+    transition: right 0.3s linear;
+    
+}
+.both_above{
+    position: absolute;
+    display: flex;
+    top: 20%;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 100px;
+}
+.single_small-img{
+    height: 100%;
+}
+.children_text{
+    font-size: 3rem;
+    color: var(--foor--body);
+    animation: slide-in 4s ease;
+}
+@keyframes slide-in {
+    0% {
+      transform: translateX(-100%);
+      opacity: 0;
+    }
+    100% {
+      transform: translateX(0);
+      opacity: 1;
+    }
+  }
+.children_text h3 {
+    font-size: 4rem;
+    line-height: 40px;
+    font-family: 'Dancing Script', cursive;
+
+}
+.children_text span {
+    font-weight: 500;
+}
+.tittle_style{
+    display: grid;
+    animation: slide-in 2s linear;
+}
+.text_dreamers{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    font-size: 1.8rem;
+    margin-top: 50px;
+    margin-bottom: 30px;
+}
+.tittle_style h3{
+    font-size: 2.5rem;
+}
+.tittle_style i{
+    font-size: 1.4rem;
+}
+.tittle_style span{
+    font-size: 2rem;
+}
+.boder_bottom{
+    border-bottom: 1px solid var(--color--hover--);
+    padding: 10px 0 15px 0;
+}
+.none_boder{
+    padding: 10px 0 0 0;
+}
+.img_all{
+    width: 100%;
+    height: 400px;
+}
+.img__right{
+    width: 100%;
+    height: 100%;
+}
+.imge_photogarapher--right-center{
+    height: 800px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.imge_photogarapher--all{
+    width: 100%;
+    display: flex;
+    position: relative;
+}
+.imge_photogarapher--left{
+    width: 40%;
+}
+.imge_photogarapher--right{
+    display: flex;
+
+}
+.center_photographer--all{
+    width: 100%;
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    height: 100%;
+    align-items: center;
+    background-color: rgba(0,0,0,.3)
+    
+}
+.absilut__center{
+    width: 800px;
+    height: 600px;
+    box-shadow: 10px 0px 5px 5px rgba(0 0 0 /30%);
+    position: relative;
+
+}
+.slogan_photographer{
+    width: 100%;
+    position: absolute;
+    top: 50%;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    font-size: 3rem;
+    color: white;
+    font-weight: bold;
+    font-family: 'Dancing Script', cursive;
+}
+.under_img_zoom--photogapher{
+    position: relative;
+    width: 100%;
+    height: 570px;
+}
+.img_zoom--photogapher{
+    width: 100%;
+    display: flex;
+    margin: 60px 0 80px 0;
+    justify-content: space-between;
+    position: absolute;
+}
+
+.img_zoom--photogapher-all{
+    height: 440px;
+    display: flex;
+    width: 20%; 
+    border-radius: 5px;
+}
+.img_zoom--photogapher-all-img{
+    width: 100%;
+    height: 100%;
+    transition-delay: 2s;
+    border-radius: 5px;
+}
+.img_zoom--photogapher-all:hover{
+    height: 550px;
+    width: 100%;
+    transform: scale(100%);
+    transition: all 0.5s ease;
+    transform: translateY(-50px);
+    cursor: pointer;
+    border-radius: 5px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+ 
+}
+.font_site--icon{
+    font-size: 15px;
+}
+.text_dreamers i{
+    color: var(--color--hover--);
+}
+.boder_animal{
+    padding: 5px 0 8px 0;
+    border-top: 1px solid var(--color--hover--);
+}
+.show_cars{
+    width: 1200px;
+    height: 600px;
+    margin: 0 auto;
+    background-color: #434343;
+    margin-bottom: 80px;
+}
+.show_cars--all{
+    padding: 30px  0px  30px 180px;
+    margin: 0 auto;
+    width: 1200px;
+    height: 620px;
+    overflow-x: scroll;
+    overflow-y: hidden;
+    display: flex;
+    z-index: 1;
+}
+.show_cars--all-img{
+    position: relative;
+    min-width: 350px;
+    min-height: 525px;
+    display: flex;
+    z-index: 3;
+    box-shadow: -2rem 0 3rem -2rem #000;
+    transition: .2s;
+    background: linear-gradient(85deg,#434343,#262626);
+    border-radius: 16px;
+    margin-left: -130px;
+    overflow: hidden;
+
+}
+.tem_kin{
+    width: 20px;
+    height: 20px;
+    position: absolute;
+    left: 8px;
+    bottom: 8px;
+    border-radius: 50%;
+    overflow: hidden;
+}
+.tem_kin img{
+    width: 100%;
+    height: 100%;
+}
+.show_cars--picture{
+    width: 100%;
+    height: 100%;
+    
+}
+.show_cars--all-img:hover{
+    transform: translate(-0.5rem,-1rem) rotate(5deg);
+    z-index: 3;
+    cursor: pointer;
+   
+}
+.car_audiA7{
+    padding: 0 50px;
+    width: 100%;
+    display: flex;
+    margin-bottom: 50px;
+}
+.car_audiA7--img{
+    width: 60%;
+    height: 100%;
+    overflow: hidden;
+    box-shadow: #434343 18px 16px 8px 1px;
+}
+.car_audiA7--img img{
+    width: 100%;
+    height: 100%;
+}
+.car_audiA7--text{
+    width: 40%;
+    padding: 30px ;
+    color: var(--black--);
+}
+.car_audiA7--text h4{
+    font-size: 3rem;
+
+}
+.car_audiA7--text p{
+    font-size: 1.6rem;
+}
+.car_audiA7--text span{
+    font-size: 2rem;
+    font-weight: bold;
+}
+.intro_a7{
+    display: flex;
+    justify-content: center;
+    margin: 50px 0;
+}
+@media only screen and (max-width: 600px){
+    .all_windows{
+        max-width: 600px;
+    }
+    .screen__first{
+        width: 100%;
+  
+    }
+    .text_dreamers{
+        margin: 20px 0 10px 0;
+    }
+    .tittle_style h3{
+        font-size: 2rem;
+        
+    }
+    .tittle_style span {
+        font-size: 1.6rem;
+    }
+    .tittle_style i{
+        font-size: 1rem;
+        padding-bottom: 5px;
+    }
+    .imge_photogarapher--left{
+        width: 100%;
+    }
+    .boder_bottom{
+        padding: 10px 0 8px 0;
+    }
+    .none_boder{
+        padding-top: 6px;
+    }
+    .img_all{
+        height: 200px;
+    }
+    .imge_photogarapher--right-center{
+        height: 200px;
+    }
+    .imge_photogarapher--right{
+        display: block;
+        width: 100%;
+    }
+    .absilut__center{
+        width: 50%;
+        height: 200px;
+    }
+    .slogan_photographer h3{
+        font-size: 1.4rem;
+        font-family: 'Dancing Script', cursive;
+    }
+    .both_above{
+        padding: 0;
+        top: 32%;
+        justify-content: center;
+    }
+    .single_small{
+        height: 120px;
+    }
+    .children_text{
+        font-size: 1rem;
+        width: 70%;
+    }
+    .children_text h3{
+        font-size: 2rem;
+        line-height: 28px;
+        font-family: 'Dancing Script', cursive;
+    }
+    .img_zoom--photogapher{
+        overflow-x: scroll;
+        align-items: center;
+        overflow-y: hidden;
+        
+    }
+    .img_zoom--photogapher-all{
+        width: 100%;
+    }
+    .img_zoom--photogapher-all:hover{
+        transform: translateY(10px);
+    }
+    .under_img_zoom--photogapher{
+        margin-bottom: 60px ;
+    }
+    .show_cars{
+        max-width: 600px;
+        width: 100%;
+    }
+    .show_cars--all{
+        width: 100%;
+    }
+    .car_audiA7{
+        flex-direction: column;
+        padding: 0 25px;
+
+    }
+    .car_audiA7--img{
+        width: 100%;
+    }
+    .car_audiA7--text{
+        width: 100%;
+        padding: 20px 15px;
+    }
+    .car_audiA7--text h4{
+        font-size: 1.8rem;
+    }
+    .car_audiA7--text p{
+        font-size: 1.3rem;
+    }
+    .car_audiA7--text span{
+        font-size: 1.6rem;
+    }
+    .intro_a7 iframe{
+        width: 85%;
+        height: 250px;
+    }
+
+  
+}

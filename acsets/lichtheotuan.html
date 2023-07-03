@@ -1,0 +1,457 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lịch theo tuần</title>
+    <!--  -->
+    <link rel="stylesheet" href="css/base.css">
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="font/fontawesome-free-6.2.0/css/all.css">
+    <link rel="stylesheet" href="font/fontawesome-free-6.2.0/css/fontawesome.css">
+    <link rel="stylesheet" href="css/more.css">
+</head>
+<body class="body_baby">
+    <div class="title title1">
+        <header>
+         <div class="title__center">
+             <div class="title__all">
+                 <div class="title__list">
+                     <a href="display.html" class="title__list--trangchu">
+                         <img src="img/gts.png" alt="" class="title__list-img">
+                     </a>
+                     <div class="title__list--center">
+                         <input type="text" placeholder="Tìm kiếm..." class="title__list-search">
+                         <i class="title__list-icon fa-solid fa-magnifying-glass"></i>
+                     </div>
+                 </div>
+                 <div class="title__home">
+                     <a href="" class="title__home--house">
+                         <i class="title__home--house-icon fa-solid fa-house-chimney"></i>
+                         <span class="title__home--house-name">Trang chủ</span>
+                     </a>
+                     <a href="" class="title__home--bell">
+                         <i class="title__home--bell-icon fa-regular fa-bell"></i>
+                         <span class="title__home--bell-name">
+                             Tin tức-Thông báo 
+                         </span>
+                     </a>               
+                     <div class="title__age">
+                         <div class="title__home--fist">
+                             <img src="img/271971533_613382543287800_1409723159200919466_n.jpg" alt="" class="title__home--fist-img">
+                         </div>
+                         <div class="title__age--name">
+                             <a href="" class="title__home--fist-name">
+                                 <span class="title__home--fist-name__small">
+                                     Trần Chung Kiên
+                                 </span>
+                             </a>
+                             <i class="fa-caret-down__down fa-solid fa-caret-down"></i>
+                         </div>
+                     </div>
+                 </div>
+             </div>
+         </div>
+        </header>
+       
+     </div>
+<div class="growgrow">
+    <div class="title__center">
+        <div class="grow">
+            <div class="Selectbar">
+                <ul class="Selectbar__ul">
+                    <li class="Selectbar__list">
+                        <div class="Selectbar__list--both">
+                            <i class=" Selectbar__list-icon fa-sharp fa-solid fa-house-chimney"></i>
+                            <a href="display.html" class="Selectbar__list--more">TRANG CHỦ</a>
+                        </div>
+                    </li>
+                    <li class="Selectbar__list">
+                        <div class=" Selectbar__list--both">
+                            <i class="Selectbar__list-icon fa-solid fa-tv"></i>
+                            <a href="" class="Selectbar__list--more">THÔNG TIN CHUNG</a>
+                        </div>
+                        <div class="Selectbar__list--one">
+                            <i class="Selectbar__list-icon2 fa-sharp fa-solid fa-chevron-down"></i>
+                        </div>
+                    </li>
+                    <li class="Selectbar__list">
+                        <div class="Selectbar__list--both">
+                            <i class="Selectbar__list-icon fa-sharp fa-solid fa-graduation-cap"></i>
+                            <a href="" class="Selectbar__list--more">HỌC TẬP</a>
+                        </div>
+                        <div class="Selectbar__list--one">
+                            <i class="Selectbar__list-icon2 fa-sharp fa-solid fa-chevron-down"></i>
+                        </div>
+                    </li>
+                    <li class="Selectbar__list">
+                        <div class="Selectbar__list--both">
+                            <i class="Selectbar__list-icon fa-sharp fa-solid fa-square-check"></i>
+                            <a href="" class="Selectbar__list--more">ĐĂNG KÍ HỌC PHẦN</a>
+                        </div>
+                        <div class="Selectbar__list--one">
+                            <i class="Selectbar__list-icon2 fa-sharp fa-solid fa-chevron-down"></i>
+                        </div>
+                    </li>
+                    <li class="Selectbar__list">
+                        <div class="Selectbar__list--both">
+                            <i class="Selectbar__list-icon fa-brands fa-cc-visa"></i>
+                            <a href="" class="Selectbar__list--more">HỌC PHÍ</a>
+                        </div>
+                        <div class="Selectbar__list--one">
+                            <i class="Selectbar__list-icon2 fa-sharp fa-solid fa-chevron-down"></i>
+                        </div>
+                    </li>
+                    <li class="Selectbar__list">
+                        <div class=" Selectbar__list--both">
+                            <i class="Selectbar__list-icon fa-solid fa-gear"></i>
+                            <a href="" class="Selectbar__list--more">KHÁC</a>
+                        </div>
+                        <div class="Selectbar__list--one">
+                            <i class="Selectbar__list-icon2 fa-sharp fa-solid fa-chevron-down"></i>
+                        </div>
+                    </li>
+                    <li class="Selectbar__list">
+                        <div class="Selectbar__list--both">
+                            <i class="Selectbar__list-icon fa-sharp fa-solid fa-link"></i>
+                            <a href="" class="Selectbar__list--more">LIÊN KẾT</a>
+                        </div>
+                        <div class="Selectbar__list--one">
+                            <i class="Selectbar__list-icon2 fa-sharp fa-solid fa-chevron-down"></i>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+            <div class="Weeklycalendar">
+                      <div class="Weeklycalendar__topmain">
+                        <span class="Weeklycalendar__topmain--title">
+                            Lịch học, lịch thi theo tuần
+                        </span>
+                        <div class="Weeklycalendar__topmain--list flex-colum">
+                            <div class="Weeklycalendar__topmain--list__button">
+                                <div class="Weeklycalendar__topmain--list__button-all">
+                                    <button class="Weeklycalendar__topmain--list_three">                                   
+                                    </button>
+                                    <span class="span__click">Tất cả</span>
+                                </div>
+                                <div class="Weeklycalendar__topmain--list__button-all">
+                                    <button class="Weeklycalendar__topmain--list_three">                                   
+                                    </button>
+                                    <span class="span__click">Lịch học</span>
+                                </div>
+                                <div class="Weeklycalendar__topmain--list__button-all">
+                                    <button class="Weeklycalendar__topmain--list_three">                                   
+                                    </button>
+                                    <span class="span__click">Lịch thi</span>
+                                </div>
+                            </div>
+                            <div class="Weeklycalendar__topmain--list__calendar">
+                                <input class="Weeklycalendar__topmain--list__calendar--icon"   type="">
+                                <i class="Weeklycalendar__topmain--list__calendar--icon2 fa-solid fa-calendar-days"></i>
+                            </div>
+                            <div class="Weeklycalendar__topmain--list__use">
+                                <a href="" class="Weeklycalendar__topmain--list__use">
+                                    <div class="Weeklycalendar__topmain--list__use-pick">
+                                        <i class="fa-regular fa-calendar-days"></i>
+                                        <span>Hiện tại</span>
+                                    </div>
+                                </a>
+                                <a href="" class="Weeklycalendar__topmain--list__use">
+                                    <div class="Weeklycalendar__topmain--list__use-pick">
+                                        <i class="fa-solid fa-print"></i>
+                                        <span>In lịch</span>
+                                    </div>
+                                </a>
+                                <a href="" class="Weeklycalendar__topmain--list__use">
+                                    <div class="Weeklycalendar__topmain--list__use-pick">
+                                        <i class="fa-solid fa-chevron-left"></i>
+                                        <span>Trở lại</span>
+                                    </div>
+                                </a>
+                                <a href="" class="Weeklycalendar__topmain--list__use">
+                                    <div class="Weeklycalendar__topmain--list__use-pick">
+                                        <span>Tiếp theo</span>
+                                        <i class="fa-solid fa-chevron-right"></i>
+                                    </div>
+                                </a>
+                                <a href="" class="Weeklycalendar__topmain--list__use">
+                                    <div class="Weeklycalendar__topmain--list__use-pick">
+                                        <i class="fa-solid fa-expand"></i>
+                                        
+                                    </div>
+                                </a>
+                            </div>
+                        </div>
+                      </div>
+                      <div class="shift">
+                        <div class="shift__today">
+                            <table class="shift__today--table">
+                                <thead class="shift__today--table-thead">
+                                    <tr class="shift__today--table-thead__tr">
+                                        <th class="shift__today--table-thead__tr--th">
+                                            Ca học
+                                        </th>
+                                        <th class="shift__today--table-thead__tr--th">
+                                            <dv class="shift__today--table-thead__tr--th-both">
+                                                Thứ 2
+                                                <span>04/01/2023</span>
+                                            </dv>
+                                        </th>
+                                        <th class="shift__today--table-thead__tr--th">
+                                            <div class="shift__today--table-thead__tr--th-both">
+                                                Thứ 3
+                                                <span>04/01/2023</span>
+                                            </div>
+                                        </th>
+                                        <th class="shift__today--table-thead__tr--th">
+                                            <div class="shift__today--table-thead__tr--th-both">
+                                                Thứ 4
+                                                <span>04/01/2023</span>
+                                            </div>
+                                        </th>
+                                        <th class="shift__today--table-thead__tr--th">
+                                            <div class="shift__today--table-thead__tr--th-both">
+                                                Thứ 5
+                                                <span>04/01/2023</span>
+                                            </div>
+                                        </th>
+                                        <th class="shift__today--table-thead__tr--th">
+                                            <div class="shift__today--table-thead__tr--th-both">
+                                                Thứ 6
+                                                <span>04/01/2023</span>
+                                            </div>
+                                        </th>
+                                        <th class="shift__today--table-thead__tr--th">
+                                            <div class="shift__today--table-thead__tr--th-both">
+                                                Thứ 7
+                                                <span>04/01/2023</span>
+                                            </div>
+                                        </th>
+                                        <th class="shift__today--table-thead__tr--th">
+                                            <div class="shift__today--table-thead__tr--th-both">
+                                                Chủ nhật
+                                                <span>04/01/2023</span>
+                                            </div>
+                                        </th>
+                                    </tr>       
+                                </thead>
+                                <tbody class="shift__today--table-tbody">
+                                    <tr class="shift__today--table-tbody__tr">
+                                        <td class="shift__today--table-tbody__tr--td-mabe">
+                                            <div class="shift__today--table-tbody__tr--td-mabe">
+                                                Sáng
+                                            </div>
+                                        </td>
+                                        <td class="shift__today--table-tbody__tr--td">
+                                            <div class="shift__today--table-tbody__tr--td-in">
+                                               
+                                            </div>
+                                        </td>
+                                        <td class="shift__today--table-tbody__tr--td">
+                                            <div class="shift__today--table-tbody__tr--td-in">
+                                              
+                                            </div>
+                                        </td>
+                                        <td class="shift__today--table-tbody__tr--td">
+                                            <div class="shift__today--table-tbody__tr--td-in">
+                                               
+                                            </div>
+                                        </td>
+                                        <td class="shift__today--table-tbody__tr--td">
+                                            <div class="shift__today--table-tbody__tr--td-in">
+                                               
+                                            </div>
+                                        </td>
+                                        <td class="shift__today--table-tbody__tr--td">
+                                            <div class="shift__today--table-tbody__tr--td-in">
+                                                <div class="shift__today--table-tbody__tr--td-in__center">
+                                                    <a href="" class="shift__today--table-tbody__tr--td-in__center--a">Điền Kinh</a>
+                                                   <div>
+                                                    <span>CN22A - 010100410523</span>
+                                                    <span>Tiết: 1 - 3</span>
+                                                    <span>Phòng: Số 64 Tô Ký, P. Tân Chánh Hiệp, Q.12 (Tiểu Đoàn thông tin)</span>
+                                                    <span>GV: Huỳnh Thị Thu Hằng</span>
+                                                   </div>
+                                                </div>
+                                            </div>
+                                        </td>
+                                        <td class="shift__today--table-tbody__tr--td">
+                                            <div class="shift__today--table-tbody__tr--td-in">
+                                              
+                                            </div>
+                                        </td>
+                                        <td class="shift__today--table-tbody__tr--td">
+                                            <div class="shift__today--table-tbody__tr--td-in">
+                                               
+                                            </div>
+                                        </td>
+                                    </tr>
+                                    <tr class="shift__today--table-tbody__tr">
+                                        <tr class="shift__today--table-tbody__tr">
+                                            <td class="shift__today--table-tbody__tr--td-mabe">
+                                                <div class="shift__today--table-tbody__tr--td-mabe">
+                                                  Chiều
+    
+                                                </div>
+                                            </td>
+                                            <td class="shift__today--table-tbody__tr--td">
+                                                <div class="shift__today--table-tbody__tr--td-in">
+                                                   
+                                                </div>
+                                            </td>
+                                            <td class="shift__today--table-tbody__tr--td">
+                                                <div class="shift__today--table-tbody__tr--td-in">
+                                                    <div class="shift__today--table-tbody__tr--td-in__center">
+                                                        <a href="" class="shift__today--table-tbody__tr--td-in__center--a">Toán chuyên đề 1</a>
+                                                       <div>
+                                                        <span>CN22A - 010100410523</span>
+                                                        <span>Tiết: 7 - 9</span>
+                                                        <span>Phòng: H402</span>
+                                                        <span>GV: Nguyễn Thị Thanh Hà</span>
+                                                       </div>
+                                                    </div>
+                                                </div>
+                                            </td>
+                                            <td class="shift__today--table-tbody__tr--td">
+                                                <div class="shift__today--table-tbody__tr--td-in">
+                                                    <div class="shift__today--table-tbody__tr--td-in__center">
+                                                        <a href="" class="shift__today--table-tbody__tr--td-in__center--a">Tin học cơ bản</a>
+                                                       <div>
+                                                        <span>CN22A - 010112401257</span>
+                                                        <span>Tiết: 7 - 9</span>
+                                                        <span>Phòng: H003 - PMT</span>
+                                                        <span>GV: Mai Thanh Tâm</span>
+                                                       </div>
+                                                    </div>
+                                                </div>
+                                            </td>
+                                            <td class="shift__today--table-tbody__tr--td">
+                                                <div class="shift__today--table-tbody__tr--td-in">
+                                                  
+                                                </div>
+                                            </td>
+                                            <td class="shift__today--table-tbody__tr--td">
+                                                <div class="shift__today--table-tbody__tr--td-in">
+                                                   
+                                                </div>
+                                            </td>
+                                            <td class="shift__today--table-tbody__tr--td">
+                                                <div class="shift__today--table-tbody__tr--td-in">
+                                                    <div class="shift__today--table-tbody__tr--td-in__center">
+                                                        <a href="" class="shift__today--table-tbody__tr--td-in__center--a">Giải tích 1</a>
+                                                       <div>
+                                                        <span>CN22A - 010100120204</span>
+                                                        <span>Tiết: 7 - 9</span>
+                                                        <span>Phòng: H108</span>
+                                                        <span>GV: Huỳnh Kim Truyện</span>
+                                                       </div>
+                                                    </div>
+                                                </div>
+                                                <div class="shift__today--table-tbody__tr--td-in">
+                                                    <div class="shift__today--table-tbody__tr--td-in__center">
+                                                        <a href="" class="shift__today--table-tbody__tr--td-in__center--a">Nhập môn ngành Công nghệ thông tin</a>
+                                                        <div>
+                                                            <span>CN22A - 010112204201</span>
+                                                            <span>Tiết: 10 - 12</span>
+                                                            <span>Phòng: H301</span>
+                                                            <span>GV: Võ Hồng Kiệt</span>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </td>
+                                            <td class="shift__today--table-tbody__tr--td">
+                                                <div class="shift__today--table-tbody__tr--td-in">
+                                                   
+                                                </div>
+                                            </td>
+                                        </tr>
+                                    </tr>
+                                    <tr class="shift__today--table-tbody__tr">
+                                        <tr class="shift__today--table-tbody__tr">
+                                            <td class="shift__today--table-tbody__tr--td-mabe">
+                                                <div class="shift__today--table-tbody__tr--td-mabe">
+                                                 Tối
+    
+                                                </div>
+                                            </td>
+                                            <td class="shift__today--table-tbody__tr--td">
+                                                <div class="shift__today--table-tbody__tr--td-in">
+                                                   
+                                                </div>
+                                            </td>
+                                            <td class="shift__today--table-tbody__tr--td">
+                                                <div class="shift__today--table-tbody__tr--td-in">
+                                                 
+                                                </div>
+                                            </td>
+                                            <td class="shift__today--table-tbody__tr--td">
+                                                <div class="shift__today--table-tbody__tr--td-in">
+                                                 
+                                                </div>
+                                            </td>
+                                            <td class="shift__today--table-tbody__tr--td">
+                                                <div class="shift__today--table-tbody__tr--td-in">
+                                                  
+                                                </div>
+                                            </td>
+                                            <td class="shift__today--table-tbody__tr--td">
+                                                <div class="shift__today--table-tbody__tr--td-in">
+                                                  
+                                                </div>
+                                            </td>
+                                            <td class="shift__today--table-tbody__tr--td">
+                                                <div class="shift__today--table-tbody__tr--td-in">
+                                                  
+                                                </div>
+                                            </td>
+                                            <td class="shift__today--table-tbody__tr--td">
+                                                <div class="shift__today--table-tbody__tr--td-in">
+                                                 
+                                                </div>
+                                            </td>
+                                        </tr>
+                                    </tr>
+                    
+                                </tbody>
+                            </table>
+                        </div>
+                    </div> 
+                     <div class="note">
+                        <ul class="note__color">
+                            <li class="note__color--li">
+                                <div class="note__color--show1"></div>
+                                <span class="note__color--name">Lịch học</span>
+                            </li>
+                            <li class="note__color--li">
+                                <div  class="note__color--show2"></div>
+                                <span class="note__color--name">Lịch học trực tuyến</span>
+                            </li>
+                            <li class="note__color--li">
+                                <div  class="note__color--show3"></div>
+                                <span class="note__color--name">Lịch thi</span>
+                            </li>
+                            <li class="note__color--li">
+                                <div  class="note__color--show4"></div>
+                                <span class="note__color--name">Lịch tạm ngưng</span>
+                            </li>
+                        </ul>
+                     </div> 
+                     <div class="note">
+                        <div class="note__text">
+                            <div class="note__text--all">
+                               <b >Chú ý</b>
+                                <span>- Đối với lịch học trực tuyến sinh viên nên tham gia trực tiếp từ nút 'Tham gia' trên lịch học theo tuần, để hệ thống ghi nhận điểm danh. Nếu truy cập vào lịch thông qua link (đường dẫn) hoặc 'ID - Passcode', thì sinh viên phải chủ động thông báo giảng viên điểm danh bổ sung.</span>
+                                <span>- Đối với lịch thi trắc nghiệm trực tuyến, sinh viên không được dùng trình duyệt ở chế độ ẩn danh để đảm bảo dữ liệu bài thi trắc nghiệm.</span>
+                            </div>
+                        </div>
+                     </div>  
+            </div>  
+               
+        
+        </div>
+    </div>
+   </div>
+    
+</body>
+</html>
