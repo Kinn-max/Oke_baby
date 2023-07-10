@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="/Css/test.css">
+</head>
+<body>
+    <div class="slides__chose">
+        <div class="shop__all">
+            <div class="slider_all">
+                <input type="radio" name="radio-btn" id="radio1">
+                <input type="radio" name="radio-btn" id="radio2">
+                <input type="radio" name="radio-btn" id="radio3">
+                <input type="radio" name="radio-btn" id="radio4">
+            </div>
+            <div class="imgs_shop first" id="change">
+                <img src="/Img/img_title_shop/img1.png" alt="">
+            </div>
+            <div class="imgs_shop">
+                <img src="/Img/img_title_shop/img2.png" alt="">
+            </div>
+            <div class="imgs_shop ">
+                <img src="/Img/img_title_shop/img3.png" alt="">
+            </div>
+            <div class="imgs_shop ">
+                <img src="/Img/img_title_shop/img4.png" alt="">
+            </div>
+            <div class="atomatic_img">
+                <div class="auto-btn1"></div>
+                <div class="auto-btn2"></div>
+                <div class="auto-btn3"></div>
+                <div class="auto-btn4"></div>
+
+            </div>
+            <div class="navagibation-img">
+                <label for="radio1" class="manual-btn"></label>
+                <label for="radio2" class="manual-btn"></label>
+                <label for="radio3" class="manual-btn"></label>
+                <label for="radio4" class="manual-btn"></label>
+
+            </div>
+            
+
+        </div>
+         <script >
+            const checkbox0 = document.getElementById('radio1');
+            const checkbox1 = document.getElementById('radio2');
+            const checkbox2 = document.getElementById('radio3');
+            const checkbox3 = document.getElementById('radio4');
+            const div = document.querySelector('.first');
+
+           
+ 
+
+            checkbox0.addEventListener('change', function() {
+                if (this.checked) {
+                    div.style.marginLeft = '0';
+
+                } 
+            });
+
+            checkbox1.addEventListener('change', function() {
+            if (this.checked) {
+                div.style.marginLeft = '-25%';
+
+            } 
+            });
+            checkbox2.addEventListener('change', function() {
+                if (this.checked) {
+                    div.style.marginLeft = '-50%';
+
+                } 
+                });
+            checkbox3.addEventListener('change', function() {
+                if (this.checked) {
+                    div.style.marginLeft = '-75%';
+                } 
+                });
+            
+        </script> 
+   </div>
+    
+</body>
+</html>

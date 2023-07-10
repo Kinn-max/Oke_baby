@@ -60,7 +60,7 @@
 .children_text{
     font-size: 3rem;
     color: var(--foor--body);
-    animation: slide-in 4s ease;
+    animation: slide-in 3s ease;
 }
 @keyframes slide-in {
     0% {
@@ -83,7 +83,7 @@
 }
 .tittle_style{
     display: grid;
-    animation: slide-in 2s linear;
+
 }
 .text_dreamers{
     display: flex;

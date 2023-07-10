@@ -4,6 +4,8 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://code.jquery.com/jquery-3.7.0.js" integrity="sha256-JlqSTELeR4TLqP0OG9dxM7yDPqX1ox/HfgiSLBj8+kM=" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.0/jquery.min.js" integrity="sha512-3gJwYpMe3QewGELv8k/BX9vcqhryRdzRMxVfq6ngyWXwo03GFEzjsUm8Q7RZcHPHksttq7/GFoxjCVUjkjvPdw==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
     <link rel="stylesheet" href="Css/style.css">
     <link rel="stylesheet" href="JS/main.js">
     <link rel="stylesheet" href="Css/project.css">
@@ -12,6 +14,20 @@
     <title>Study</title>
 </head>
 <body>
+    <div class="loaDDing">
+        <div class="pyramid-loader">
+            <div class="wrapper">
+              <span class="side side1"></span>
+              <span class="side side2"></span>
+              <span class="side side3"></span>
+              <span class="side side4"></span>
+              <span class="shadow"></span>
+            </div>  
+        </div>   
+        <div class="loader"></div>
+    </div>
+    <script src="/JS/main.js"></script>
+
     <header class="headerProject">
         <div class="HomeChose ">
             <div class="HomeChose__img">
@@ -47,7 +63,7 @@
                 </div>
                 <div class="creat_boderbt">
                     <a href="blog.html" class="HomeChose__change--list">
-                        <h3 class="boder_text_center">Blog</h3>
+                        <h3 class="boder_text_center">Store</h3>
                     </a>
                 </div>
                 <div class="creat_boderbt">
@@ -67,8 +83,6 @@
 
  
         </div>
-  
-    </header>
   
     </header>
     <div class="center_project">
@@ -359,7 +373,7 @@
                           <a href="blog.html">
                               <li class="hover_taskback">
                                   <i class="fa-solid magin_taskback fa-rss">
-                                     <span> Blog</span>
+                                     <span> Store</span>
                                   </i>
                               </li>
                           </a>

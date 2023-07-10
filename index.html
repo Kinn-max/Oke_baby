@@ -3,6 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.0/jquery.min.js" integrity="sha512-3gJwYpMe3QewGELv8k/BX9vcqhryRdzRMxVfq6ngyWXwo03GFEzjsUm8Q7RZcHPHksttq7/GFoxjCVUjkjvPdw==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="Css/style.css">
     <link rel="stylesheet" href="JS/main.js">
@@ -10,7 +11,19 @@
     <link rel="stylesheet" href="Fonsomeone/fontawesome-free-6.2.0/css/all.css">
     <title>Home</title>
 </head>
-<body>
+<body class="hiden__scroll">
+    <div class="loaDDing">
+        <div class="pyramid-loader">
+            <div class="wrapper">
+              <span class="side side1"></span>
+              <span class="side side2"></span>
+              <span class="side side3"></span>
+              <span class="side side4"></span>
+              <span class="shadow"></span>
+            </div>  
+        </div>   
+        <div class="loader"></div>
+    </div>
     <header class="headerProject">
         <div class="HomeChose ">
             <div class="HomeChose__img">
@@ -46,7 +59,7 @@
                 </div>
                 <div class="creat_boderbt">
                     <a href="blog.html" class="HomeChose__change--list">
-                        <h3 class="boder_text_center">Blog</h3>
+                        <h3 class="boder_text_center">Store</h3>
                     </a>
                 </div>
                 <div class="creat_boderbt">
@@ -69,9 +82,9 @@
   
     </header>
     <script>
-        setTimeout(function() {
+        <!-- setTimeout(function() {
             alert("Chào em")
-        }, 2000) 
+        }, 2000)  -->
     </script> 
     <div class="btn">
         <div class="HomeChose">
@@ -366,6 +379,7 @@
                     </div>
                 </div>
             </div>
+       
         </div>
         <div  class="taskbak">
           <div class="bacgroud__all-it">
@@ -375,12 +389,14 @@
             </div>
             <div class="background_class">
                 <ul class="zone_stop" >
-                    <a href="#">
-                         <li class="magin_taskback--title hover_taskback">
+                    <a href="/signIn.html">
+                       <div class="signIn__mobile">
+                        <li class="magin_taskback--title hover_taskback ">
                             <i class="fa-solid magin_taskback fa-circle-user">
                             <span>Sign in</span>
                             </i>
                          </li>
+                       </div>
                      </a>  
                     <a href="index.html" class="chose_home">
                         <li class="hover_taskback backgroud__chosse">
@@ -399,7 +415,7 @@
                     <a href="blog.html">
                         <li class="hover_taskback">
                             <i class="fa-solid magin_taskback fa-rss">
-                               <span> Blog</span>
+                               <span> Store</span>
                             </i>
                         </li>
                     </a>
@@ -423,17 +439,23 @@
         
         </div>
         <script>
-
+            const hidenCroll = document.querySelector(".hiden__scroll")
             const iconMenu = document.querySelector(".icon__menuu ")
             const taskBak = document.querySelector('.taskbak')
             const closeTask = document.querySelector('.icon__close')
+            const closeAlltask = document.querySelector('.bacgroud__all-it')
             
             iconMenu.addEventListener('click', function(){
-                taskBak.style.display = 'block'
+                taskBak.style.display =  'block'
+                hidenCroll.style.overflow = 'hidden'
             })
             closeTask.addEventListener('click', function(){
                 taskBak.style.display = 'none'
+                hidenCroll.style.overflow = 'visible'
             })
+         
+
+
             
         </script>
         <div class="Notification">
@@ -457,13 +479,16 @@
             const hiddenModal = document.querySelector(".icon__close--modal")
 
             showw.addEventListener('click', function(){
-                modall.style.display = 'flex'
+                modall.style.display = 'block'
+                hidenCroll.style.overflow = 'hidden'
             })
             hiddenModal.addEventListener('click', function(){
                 modall.style.display = 'none'
+                hidenCroll.style.overflow = 'visible'
             })
         </script>
     </div>
+    <script src="JS/main.js"></script>
     <footer>
         <div class="HomeChose">
             <div class="theEnd__all">
